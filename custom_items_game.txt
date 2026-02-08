@@ -4625,13 +4625,13 @@
         }
 
         "638"{
-            "name""The Assassin's Dresser""first_sale_date""2011/11/23""item_class""tf_weapon_knife""prefab""weapon_knife""craft_class""weapon""craft_material_type""weapon""capabilities"{
+            "name""Assassin's Dresser""first_sale_date""2011/11/23""item_class""tf_weapon_knife""prefab""weapon_knife""craft_class""weapon""craft_material_type""weapon""capabilities"{
                 "nameable""1""can_craft_count""1"
             }
 			"tags"{
                 "can_deal_damage""1""can_be_festivized""1"
             }
-			"show_in_armory""1""item_type_name""#TF_Weapon_Knife""item_name""The Assassin's Dresser""item_description""#TF_SharpDresser_Desc""item_slot""melee""item_quality""unique""propername""1""min_ilevel""1""max_ilevel""1""item_logname""sharp_dresser""item_iconname""sharp_dresser""image_inventory""backpack/workshop/weapons/c_models/c_acr_hookblade/c_acr_hookblade""image_inventory_size_w""128""image_inventory_size_h""82""inspect_panel_dist""30""attach_to_hands""1""model_player""models/workshop/weapons/c_models/c_acr_hookblade/c_acr_hookblade.mdl""used_by_classes"{
+			"show_in_armory""1""item_type_name""#TF_Weapon_Knife""item_name""Assassin's Dresser""item_description""#TF_SharpDresser_Desc""item_slot""melee""item_quality""unique""propername""1""min_ilevel""1""max_ilevel""1""item_logname""sharp_dresser""item_iconname""sharp_dresser""image_inventory""backpack/workshop/weapons/c_models/c_acr_hookblade/c_acr_hookblade""image_inventory_size_w""128""image_inventory_size_h""82""inspect_panel_dist""30""attach_to_hands""1""model_player""models/workshop/weapons/c_models/c_acr_hookblade/c_acr_hookblade.mdl""used_by_classes"{
                 "spy""1"
             }
 			"static_attrs"{
