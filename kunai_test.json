@@ -1,0 +1,140 @@
+#base items_game.txt
+
+"items_game"{
+    "attributes"{
+        "4250"{
+            "name""dmg taken from bullets reduced HIDDEN""attribute_class""mult_dmgtaken_from_bullets""description_string""#Attrib_DmgTaken_From_Bullets_Reduced""description_format""value_is_inverted_percentage""hidden""1""effect_type""positive""armory_desc""on_wearer""stored_as_integer""0"
+        }
+		"4248"{
+            "name""Blast radius increased HIDDEN""attribute_class""mult_explosion_radius""description_string""#Attrib_BlastRadius_Increased""description_format""value_is_percentage""hidden""1""effect_type""positive""stored_as_integer""0"
+        }
+		"4247"{
+            "name""weapon spread bonus hidden""attribute_class""mult_spread_scale""description_string""#Attrib_Spread_Positive""description_format""value_is_inverted_percentage""hidden""1""effect_type""positive""stored_as_integer""0"
+        }
+		"4244"{
+            "name""fire retardant VALVe""attribute_class""set_fire_retardant""description_string""#Attrib_FireRetardant""description_format""value_is_additive""hidden""1""effect_type""positive""armory_desc""on_wearer""stored_as_integer""0"
+        }
+		"4245"{
+            "name""speed boost when active VALVe""attribute_class""mult_move_speed_when_active""description_string""#Attrib_SpeedBoostWhenActive""description_format""value_is_percentage""hidden""1""effect_type""positive""armory_desc""on_active""stored_as_integer""0"
+        }
+		"4246"{
+            "name""dmg taken from fire reduced on active VALVe""attribute_class""mult_dmgtaken_from_fire_active""description_string""#Attrib_DmgTaken_From_Fire_ReducedActive""description_format""value_is_inverted_percentage""hidden""1""effect_type""positive""armory_desc""on_wearer""stored_as_integer""0"
+        }
+		"4233"{
+            "name""is a joke weapon""attribute_class""is_joke_weapon""description_string""#Attrib_Joke""description_format""value_is_additive""hidden""0""custom_color""165 15 121 255""effect_type""positive""stored_as_integer""0"
+        }
+		"4232"{
+            "name""is a custom made item""attribute_class""is_custom_made""description_string""#Attrib_Sponge""description_format""value_is_additive""hidden""0""custom_color""165 15 121 255""effect_type""netural""stored_as_integer""0"
+        }
+		"4231"{
+            "name""cancel falling damage HIDDEN""attribute_class""cancel_falling_damage""description_string""#Attrib_CancelFallingDamage""description_format""value_is_additive""hidden""1""effect_type""positive""stored_as_integer""0"
+        }
+		"4230"{
+            "name""use large smoke explosion Edwin""attribute_class""use_large_smoke_explosion""description_format""value_is_additive""hidden""1""effect_type""positive""stored_as_integer""0"
+        }
+		"4111"{
+            "name""is edwin item""attribute_class""is_edwin_only""description_string""#Attrib_EdwinItem""description_format""value_is_additive""hidden""0""custom_color""165 15 121 255""effect_type""community""stored_as_integer""0""apply_tag_to_item_definition""prevents_headshots"
+        }
+		"4106"{
+            "name""mod crit while airborne EDWIN""attribute_class""crit_while_airborne""description_string""#Attrib_CritWhileAirborne""description_format""value_is_additive""hidden""1""effect_type""positive""stored_as_integer""0"
+        }
+		"4068"{
+            "name""deploy time decreased AUS""attribute_class""mult_deploy_time""description_string""#Attrib_DeployTime_Decreased""description_format""value_is_inverted_percentage""hidden""1""effect_type""positive""stored_as_integer""0"
+        }
+		"4067"{
+            "name""switch from wep deploy time decreased AUSTRALIUM""attribute_class""mult_switch_from_wep_deploy_time""description_string""#Attrib_SingleWepHolsterBonus""description_format""value_is_inverted_percentage""hidden""1""effect_type""positive""stored_as_integer""0"
+        }
+		"4064"{
+            "name""engineer building teleporting pickup AUSTRALIUM""attribute_class""building_teleporting_pickup""description_string""#Attrib_Building_Telporting_PickUp""description_format""value_is_additive""hidden""1""effect_type""positive""stored_as_integer""0"
+        }
+		"4059"{
+            "name""Construction rate increased AUSTRALIUM""attribute_class""mult_construction_value""description_string""#Attrib_ConstructionRate_Increased""description_format""value_is_percentage""hidden""1""effect_type""positive""stored_as_integer""0"
+        }
+		"4058"{
+            "name""Repair rate increased AUSTRALIUM""attribute_class""mult_repair_value""description_string""#Attrib_RepairRate_Increased""description_format""value_is_percentage""hidden""1""effect_type""positive""stored_as_integer""0"
+        }
+		"4055"{
+            "name""minigun spinup time decreased AUSTRALIUM""attribute_class""mult_minigun_spinup_time""description_string""#Attrib_MinigunSpinup_Decreased""description_format""value_is_inverted_percentage""hidden""1""effect_type""positive""stored_as_integer""0"
+        }
+		"4053"{
+            "name""silent killer HIDDEN""attribute_class""set_silent_killer""description_string""#Attrib_SilentKiller""description_format""value_is_additive""hidden""1""effect_type""positive""stored_as_integer""0"
+        }
+		"4051"{
+            "name""cloak consume rate decreased AUSTRALIUM""attribute_class""mult_cloak_meter_consume_rate""description_string""#Attrib_CloakConsumeRate_Decreased""description_format""value_is_inverted_percentage""hidden""1""effect_type""positive""stored_as_integer""0"
+        }
+		"4050"{
+            "name""disguise damage reduction AUSTRALIUM""attribute_class""disguise_damage_reduction""description_string""#Attrib_DisguiseDamageReduction""description_format""value_is_percentage""hidden""1""effect_type""positive""stored_as_integer""0"
+        }
+		"4049"{
+            "name""disguise no burn AUSTRALIUM""attribute_class""disguise_no_burn""description_string""#Attrib_DisguiseNoBurn""description_format""value_is_additive""hidden""1""effect_type""positive""stored_as_integer""0"
+        }
+		"4048"{
+            "name""add cloak on hit AUSTRALIUM""attribute_class""add_cloak_on_hit""description_string""#Attrib_AddCloakOnHit""description_format""value_is_additive""hidden""1""effect_type""positive""stored_as_integer""0"
+        }
+		"4042"{
+            "name""full charge turn control LEILEI""attribute_class""charge_turn_control""description_string""#Attrib_ChargeTurnControlFull""description_format""value_is_additive""hidden""1""effect_type""positive""stored_as_integer""0"
+        }
+		"4041"{
+            "name""max health additive bonus DEMOPAN""attribute_class""add_maxhealth""description_string""#Attrib_MaxHealth_Positive""description_format""value_is_additive""hidden""1""effect_type""positive""armory_desc""on_wearer""stored_as_integer""0"
+        }
+		"4038"{
+            "name""stickybomb charge rate ZOEY""attribute_class""stickybomb_charge_rate""description_string""#Attrib_stickybomb_charge_rate""description_format""value_is_inverted_percentage""hidden""1""effect_type""positive"
+        }
+		"4036"{
+            "name""stickies detonate stickies HIDDEN""attribute_class""stickies_detonate_stickies""description_string""#Attrib_StickiesDetonateStickies""description_format""value_is_additive""hidden""1""effect_type""positive""stored_as_integer""0"
+        }
+		"4035"{
+            "name""stickybomb_charge_damage_increase HIDDEN""attribute_class""stickybomb_charge_damage_increase""description_string""#Attrib_stickybomb_charge_damage_increase""description_format""value_is_percentage""hidden""1""effect_type""positive"
+        }
+		"4032"{
+            "name""heal rate bonus HIDDEN""attribute_class""mult_medigun_healrate""description_string""#Attrib_HealRate_Positive""description_format""value_is_percentage""hidden""1""effect_type""positive""stored_as_integer""0"
+        }
+		"4033"{
+            "name""ubercharge rate bonus HIDDEN""attribute_class""mult_medigun_uberchargerate""description_string""#Attrib_UberchargeRate_Positive""description_format""value_is_percentage""hidden""1""effect_type""positive""stored_as_integer""0"
+        }
+    }
+	"prefabs"{
+        "weapon_spy_knife_item2"{
+            "enabled""1""item_class""tf_weapon_knife""craft_class""weapon""craft_material_type""weapon""show_in_armory""1""item_type_name""#TF_Weapon_Knife""item_slot""melee""item_quality""unique""min_ilevel""1""max_ilevel""1""image_inventory_size_w""128""image_inventory_size_h""82""attach_to_hands""1""used_by_classes"{
+                "spy""1"
+            }
+			"visuals"{
+                "animation_replacement"{
+                    "ACT_VM_DRAW""ACT_ITEM2_VM_DRAW""ACT_VM_IDLE""ACT_ITEM2_VM_IDLE""ACT_VM_HITCENTER""ACT_ITEM2_VM_HITCENTER""ACT_VM_SWINGHARD""ACT_ITEM2_VM_SWINGHARD""ACT_BACKSTAB_VM_UP""ACT_ITEM2_BACKSTAB_VM_UP""ACT_BACKSTAB_VM_DOWN""ACT_ITEM2_BACKSTAB_VM_DOWN""ACT_BACKSTAB_VM_IDLE""ACT_ITEM2_BACKSTAB_VM_IDLE""ACT_MELEE_VM_STUN""ACT_MELEE_VM_ITEM2_STUN""ACT_MELEE_VM_INSPECT_START""ACT_ITEM2_VM_INSPECT_START""ACT_MELEE_VM_INSPECT_IDLE""ACT_ITEM2_VM_INSPECT_IDLE""ACT_MELEE_VM_INSPECT_END""ACT_ITEM2_VM_INSPECT_END"
+                }
+            }
+			"mouse_pressed_sound""ui/item_knife_small_pickup.wav""drop_sound""ui/item_light_gun_drop.wav"
+        }
+    }
+	"items"{
+        "356"{
+            "name""Conniver's Kunai""first_sale_date""2011/03/08""prefab""weapon_spy_knife_item2""capabilities"{
+                "nameable""1"
+            }
+			"tags"{
+                "can_deal_damage""1""can_deal_taunt_damage""1""can_be_festivized""1"
+            }
+			"item_name""#TF_Kunai""item_description""#TF_Kunai_Desc""propername""0""item_logname""kunai""item_iconname""kunai""inspect_panel_dist""35""image_inventory""backpack/workshop_partner/weapons/c_models/c_shogun_kunai/c_shogun_kunai""model_player""models/workshop_partner/weapons/c_models/c_shogun_kunai/c_shogun_kunai.mdl""static_attrs"{
+                "min_viewmodel_offset""10 0 -6"
+            }
+			"attributes"{
+                "sanguisuge"{
+                    "attribute_class""sanguisuge""value""1"
+                }
+				"max health additive penalty"{
+                    "attribute_class""add_maxhealth""value""-55"
+                }
+				"special taunt"{
+                    "attribute_class""special_taunt""value""1"
+                }
+            }
+			"visuals"{
+                "attached_models_festive"{
+                    "0"{
+                        "model""models/workshop_partner/weapons/c_models/c_shogun_kunai/c_shogun_kunai_festivizer.mdl"
+                    }
+                }
+            }
+        }
+    }
+}
